@@ -11,7 +11,7 @@ const links = [
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <p className="site-footer__mark">CHIPPIX</p>
+      <p className="site-footer__mark">shippix</p>
       <p className="site-footer__statement">
         A live field guide to a catalog that refuses to sit still.
       </p>

@@ -1,15 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f2efe5;
-  --paper-deep: #e7e1d2;
-  --ink: #171714;
-  --muted: #67655e;
-  --line: #c9c3b5;
-  --signal: #ff4f1f;
-  --acid: #d8ff3e;
-  --blue: #bfd9ff;
-  --white: #fffef8;
+  --paper: #f4ecdb;
+  --paper-deep: #eae0ca;
+  --ink: #143f4e;
+  --muted: #5c6b70;
+  --line: #ccc2ac;
+  --signal: #dd5f37;
+  --acid: #f2c3ad;
+  --blue: #e9dcc4;
+  --white: #fffdf6;
+  --teal: #1e6d8b;
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
   --shadow-hard: 5px 5px 0 var(--ink);
@@ -123,17 +124,15 @@ img {
 }
 
 .wordmark {
+  display: flex;
+  align-items: center;
   padding-right: clamp(1.2rem, 3vw, 3rem);
-  font-size: 1.25rem;
-  font-weight: 900;
-  letter-spacing: -0.06em;
 }
 
-.wordmark span {
-  position: relative;
-  top: -0.7em;
-  margin-left: 0.12rem;
-  font-size: 0.38em;
+.wordmark img {
+  height: 1.7rem;
+  width: auto;
+  display: block;
 }
 
 .primary-nav,
@@ -216,7 +215,7 @@ img {
   flex-direction: column;
   min-height: 100%;
   padding: clamp(2rem, 5vw, 5rem);
-  border-right: 1px solid #4a4943;
+  border-right: 1px solid #2c5766;
   background: var(--signal);
   color: var(--ink);
 }
@@ -232,10 +231,10 @@ img {
 .catalog-menu__intro strong {
   max-width: 12ch;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 4.5rem);
+  font-size: clamp(1.6rem, 3vw, 2.8rem);
   font-weight: 400;
-  letter-spacing: -0.055em;
-  line-height: 0.92;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
 }
 
 .catalog-menu__intro a {
@@ -258,7 +257,7 @@ img {
   grid-template-columns: 2.2rem 1fr;
   align-items: baseline;
   padding: 1rem;
-  border-bottom: 1px solid #4a4943;
+  border-bottom: 1px solid #2c5766;
 }
 
 .catalog-menu__panel li span {
@@ -325,16 +324,16 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(3rem, 7vw, 8rem) clamp(1.25rem, 6vw, 7rem);
+  padding: clamp(2.5rem, 5vw, 5rem) clamp(1.25rem, 5vw, 5rem);
 }
 
 .hero__copy h1 {
-  margin: 1.25rem 0 1.8rem;
+  margin: 0.9rem 0 1.4rem;
   font-family: var(--serif);
-  font-size: clamp(4rem, 9vw, 10rem);
+  font-size: clamp(2.6rem, 6vw, 5.2rem);
   font-weight: 400;
-  letter-spacing: -0.075em;
-  line-height: 0.76;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
 }
 
 .hero__copy h1 em {
@@ -345,8 +344,8 @@ img {
 .hero__dek {
   max-width: 34rem;
   margin: 0;
-  font-size: clamp(1rem, 1.4vw, 1.3rem);
-  line-height: 1.45;
+  font-size: clamp(0.95rem, 1.1vw, 1.08rem);
+  line-height: 1.5;
 }
 
 .hero__actions {
@@ -418,8 +417,8 @@ img {
   content: "";
   pointer-events: none;
   background:
-    linear-gradient(135deg, transparent 72%, rgba(216, 255, 62, 0.55)),
-    linear-gradient(to bottom, transparent 75%, rgba(23, 23, 20, 0.24));
+    linear-gradient(135deg, transparent 72%, rgba(221, 95, 55, 0.4)),
+    linear-gradient(to bottom, transparent 75%, rgba(20, 63, 78, 0.28));
   mix-blend-mode: multiply;
 }
 
@@ -429,8 +428,8 @@ img {
       -45deg,
       var(--blue),
       var(--blue) 24px,
-      #aac7f2 24px,
-      #aac7f2 25px
+      #d9c9a8 24px,
+      #d9c9a8 25px
     );
 }
 
@@ -479,7 +478,7 @@ img {
 
 .category-rail,
 .product-section {
-  padding: clamp(3rem, 7vw, 7rem) clamp(1rem, 3vw, 3rem);
+  padding: clamp(2.25rem, 4.5vw, 4rem) clamp(1rem, 3vw, 3rem);
   border-bottom: 1px solid var(--ink);
 }
 
@@ -493,7 +492,7 @@ img {
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
   gap: 0.8rem 2rem;
-  margin-bottom: clamp(2rem, 4vw, 4rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .section-heading .eyebrow {
@@ -504,10 +503,10 @@ img {
   max-width: 15ch;
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.5rem, 5vw, 5.6rem);
+  font-size: clamp(1.9rem, 3.2vw, 3.2rem);
   font-weight: 400;
-  letter-spacing: -0.065em;
-  line-height: 0.9;
+  letter-spacing: -0.05em;
+  line-height: 0.96;
 }
 
 .section-heading > p:not(.eyebrow) {
@@ -531,8 +530,8 @@ img {
   grid-auto-flow: column;
   gap: 1px;
   overflow-x: auto;
-  border: 1px solid #53524d;
-  background: #53524d;
+  border: 1px solid #2c5766;
+  background: #2c5766;
   scroll-snap-type: x mandatory;
 }
 
@@ -556,7 +555,7 @@ img {
 .category-tile > div {
   position: relative;
   overflow: hidden;
-  background: #2c2c29;
+  background: #1c5364;
 }
 
 .category-tile img {
@@ -614,8 +613,8 @@ img {
   border-right: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
   background:
-    linear-gradient(135deg, rgba(191, 217, 255, 0.55), transparent 50%),
-    #e5e3dc;
+    linear-gradient(135deg, rgba(30, 109, 139, 0.14), transparent 52%),
+    #ece7da;
 }
 
 .product-card__visual > a {
@@ -706,7 +705,7 @@ img {
 .product-card[data-derived="true"] h3 {
   max-width: 12ch;
   font-family: var(--serif);
-  font-size: clamp(1.35rem, 2vw, 2rem);
+  font-size: clamp(1.15rem, 1.6vw, 1.6rem);
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.04em;
@@ -797,10 +796,10 @@ img {
   max-width: 12ch;
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(4rem, 9vw, 10rem);
+  font-size: clamp(2.6rem, 6vw, 5rem);
   font-weight: 400;
-  letter-spacing: -0.075em;
-  line-height: 0.8;
+  letter-spacing: -0.06em;
+  line-height: 0.92;
 }
 
 .page-intro > p:not(.eyebrow) {
@@ -869,10 +868,10 @@ img {
 
 .department-index strong {
   font-family: var(--serif);
-  font-size: clamp(1.4rem, 3vw, 3rem);
+  font-size: clamp(1.2rem, 2.2vw, 2rem);
   font-weight: 400;
-  letter-spacing: -0.045em;
-  line-height: 1;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
 }
 
 .breadcrumbs {
@@ -912,13 +911,13 @@ img {
 }
 
 .category-header h1 {
-  max-width: 14ch;
-  margin: 0.7rem 0 0;
+  max-width: 16ch;
+  margin: 0.6rem 0 0;
   font-family: var(--serif);
-  font-size: clamp(3.8rem, 8vw, 9rem);
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
   font-weight: 400;
-  letter-spacing: -0.075em;
-  line-height: 0.82;
+  letter-spacing: -0.055em;
+  line-height: 0.92;
 }
 
 .category-header > p {
@@ -1090,8 +1089,8 @@ img {
   min-height: min(72svh, 50rem);
   overflow: hidden;
   background:
-    linear-gradient(135deg, rgba(191, 217, 255, 0.6), transparent 46%),
-    #e4e1d8;
+    linear-gradient(135deg, rgba(30, 109, 139, 0.15), transparent 48%),
+    #e9e3d6;
 }
 
 .product-gallery__main img {
@@ -1150,10 +1149,10 @@ img {
   margin: 1rem 0 1.5rem;
   overflow-wrap: anywhere;
   font-family: var(--serif);
-  font-size: clamp(2.2rem, 4.6vw, 5.8rem);
+  font-size: clamp(1.7rem, 3.2vw, 3rem);
   font-weight: 400;
-  letter-spacing: -0.065em;
-  line-height: 0.9;
+  letter-spacing: -0.045em;
+  line-height: 1;
 }
 
 .product-purchase__raw {
@@ -1178,9 +1177,9 @@ img {
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
   font-family: var(--serif);
-  font-size: clamp(2.3rem, 5vw, 5rem);
-  letter-spacing: -0.06em;
-  line-height: 0.9;
+  font-size: clamp(1.9rem, 3.5vw, 3rem);
+  letter-spacing: -0.05em;
+  line-height: 0.95;
 }
 
 .product-price small {
@@ -1318,10 +1317,10 @@ img {
 .property-ledger h2 {
   margin: 0.7rem 0;
   font-family: var(--serif);
-  font-size: clamp(2.5rem, 5vw, 5.5rem);
+  font-size: clamp(1.8rem, 3.2vw, 3rem);
   font-weight: 400;
-  letter-spacing: -0.06em;
-  line-height: 0.9;
+  letter-spacing: -0.05em;
+  line-height: 0.95;
 }
 
 .product-copy > p,
@@ -1367,9 +1366,9 @@ img {
   max-width: 16ch;
   margin-bottom: 1rem;
   font-family: var(--serif);
-  font-size: clamp(2.5rem, 6vw, 7rem);
-  letter-spacing: -0.07em;
-  line-height: 0.85;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  letter-spacing: -0.055em;
+  line-height: 0.92;
 }
 
 .search-intro form > div {
@@ -1385,7 +1384,7 @@ img {
   outline: 0;
   background: transparent;
   font-family: var(--serif);
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
 }
 
 .search-intro button {
@@ -1551,26 +1550,26 @@ img {
 
 .content-page > header {
   position: relative;
-  min-height: 70svh;
-  padding: clamp(3rem, 8vw, 9rem) clamp(1rem, 6vw, 7rem);
+  min-height: auto;
+  padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1rem, 5vw, 5rem);
   border-bottom: 1px solid var(--ink);
   background: var(--acid);
 }
 
 .content-page > header h1 {
-  max-width: 12ch;
-  margin: 1rem 0 2rem;
+  max-width: 14ch;
+  margin: 0.8rem 0 1.5rem;
   font-family: var(--serif);
-  font-size: clamp(4rem, 10vw, 11rem);
+  font-size: clamp(2.6rem, 6vw, 5rem);
   font-weight: 400;
-  letter-spacing: -0.08em;
-  line-height: 0.78;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
 }
 
 .content-page > header > p:not(.eyebrow) {
   max-width: 48rem;
-  font-size: clamp(1rem, 1.5vw, 1.35rem);
-  line-height: 1.5;
+  font-size: clamp(0.98rem, 1.1vw, 1.12rem);
+  line-height: 1.55;
 }
 
 .content-page > header > span {
@@ -1602,10 +1601,10 @@ img {
 .content-page__sections h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
   font-weight: 400;
-  letter-spacing: -0.055em;
-  line-height: 0.95;
+  letter-spacing: -0.045em;
+  line-height: 1;
 }
 
 .content-page__sections p {
@@ -1624,13 +1623,13 @@ img {
 }
 
 .message-page h1 {
-  max-width: 12ch;
-  margin: 1rem 0;
+  max-width: 14ch;
+  margin: 0.8rem 0;
   font-family: var(--serif);
-  font-size: clamp(4rem, 9vw, 9rem);
+  font-size: clamp(2.6rem, 6vw, 4.4rem);
   font-weight: 400;
-  letter-spacing: -0.075em;
-  line-height: 0.8;
+  letter-spacing: -0.06em;
+  line-height: 0.92;
 }
 
 .message-page > p:not(.eyebrow) {
@@ -1653,18 +1652,18 @@ img {
 
 .site-footer__mark {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.3rem);
   font-weight: 900;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.05em;
 }
 
 .site-footer__statement {
-  max-width: 17ch;
+  max-width: 20ch;
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 4rem);
-  letter-spacing: -0.055em;
-  line-height: 0.9;
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  letter-spacing: -0.04em;
+  line-height: 0.98;
 }
 
 .site-footer nav {
@@ -1686,8 +1685,8 @@ img {
   grid-column: 2 / -1;
   max-width: 50rem;
   padding-top: 2rem;
-  border-top: 1px solid #53524d;
-  color: #aaa89f;
+  border-top: 1px solid #2c5766;
+  color: #a9c2cb;
   line-height: 1.5;
 }
 
@@ -1872,7 +1871,7 @@ img {
   }
 
   .hero__copy h1 {
-    font-size: clamp(4.3rem, 20vw, 8rem);
+    font-size: clamp(2.3rem, 11vw, 3.6rem);
   }
 
   .hero__image {

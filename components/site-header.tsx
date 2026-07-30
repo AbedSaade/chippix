@@ -7,8 +7,9 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <Link className="wordmark" href="/" aria-label="Chippix home">
-        CHIPPIX<span>®</span>
+      <Link className="wordmark" href="/" aria-label="Shippix home">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/shippix-logo.png" alt="Shippix" width={293} height={88} />
       </Link>
       <nav className="primary-nav" aria-label="Main navigation">
         <details className="catalog-menu">

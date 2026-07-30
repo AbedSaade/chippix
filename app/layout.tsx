@@ -17,26 +17,26 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: {
-      default: "Chippix — Find the useful thing",
-      template: "%s / Chippix",
+      default: "Shippix — Find the useful thing",
+      template: "%s / Shippix",
     },
     description: "A better way through a very big catalog.",
     openGraph: {
       type: "website",
-      title: "Chippix — Find the useful thing",
+      title: "Shippix — Find the useful thing",
       description: "A live field guide to 1.64 million products.",
       images: [
         {
           url: `${origin}/og.png`,
           width: 1732,
           height: 908,
-          alt: "Chippix — Find the useful thing",
+          alt: "Shippix — Find the useful thing",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Chippix — Find the useful thing",
+      title: "Shippix — Find the useful thing",
       description: "A live field guide to 1.64 million products.",
       images: [`${origin}/og.png`],
     },
