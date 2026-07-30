@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import { Fraunces, Inter } from "next/font/google";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StoreProvider } from "@/components/store-provider";
 import "./globals.css";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  style: ["normal", "italic"],
+  variable: "--font-serif",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -47,7 +62,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body>
         <StoreProvider>
           <a className="skip-link" href="#main">

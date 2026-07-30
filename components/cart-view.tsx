@@ -95,7 +95,7 @@ export function CartView() {
           Checkout unavailable
         </button>
         <p>
-          Chippix has no order or payment connection to the source catalog yet.
+          Shippix has no order or payment connection to the source catalog yet.
           Your bag remains saved on this device.
         </p>
       </aside>

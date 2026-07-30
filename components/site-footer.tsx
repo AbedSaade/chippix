@@ -24,7 +24,7 @@ export function SiteFooter() {
       </nav>
       <small>
         Product availability and pricing are read live from the source catalog.
-        Chippix is an independent browsing interface.
+        Shippix is an independent browsing interface.
       </small>
     </footer>
   );
