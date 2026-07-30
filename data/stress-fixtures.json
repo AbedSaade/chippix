@@ -1,0 +1,167 @@
+{
+  "note": "Real worst-case records. Product card must survive all of these.",
+  "codeOnlyNames": [
+    {
+      "code": "933022695798",
+      "name": "CN-933022695798",
+      "price": 1.9318,
+      "currency": "$",
+      "section": "products"
+    },
+    {
+      "code": "1067554807641",
+      "name": "CN-1067554807641",
+      "price": 11.1136,
+      "currency": "$",
+      "section": "products"
+    },
+    {
+      "code": "814835247045",
+      "name": "CN-814835247045",
+      "price": 0.0795,
+      "currency": "$",
+      "section": "hotProducts"
+    },
+    {
+      "code": "708635763184",
+      "name": "CN-708635763184",
+      "price": 0.3455,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "985081998776",
+      "name": "CN-985081998776",
+      "price": 0.1818,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "1056766987546",
+      "name": "CN-1056766987546",
+      "price": 0.8409,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "987303501972",
+      "name": "CN-987303501972",
+      "price": 0.7955,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "941577423103",
+      "name": "CN-941577423103",
+      "price": 0.8409,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "714689279721",
+      "name": "CN-714689279721",
+      "price": 0.8182,
+      "currency": "$",
+      "section": "dealProducts"
+    },
+    {
+      "code": "989200325623",
+      "name": "CN-989200325623",
+      "price": 0.7955,
+      "currency": "$",
+      "section": "dealProducts"
+    }
+  ],
+  "longestTitles": [
+    {
+      "code": "1051385121470",
+      "name": "Armpit sweat-absorbent patch invisible armpit sweat-absorbent pad washable sweat-absorbent clothing patch summer thin breathable quick-drying antiperspirant pad sweat-absorbent towel",
+      "price": 0.9045,
+      "currency": "$"
+    },
+    {
+      "code": "858883007099",
+      "name": "Plastic corner protector glass anti-collision corner lamp lens photo frame bathroom packaging anti-collision corner manufacturer express transportation corner protector",
+      "price": 0.0636,
+      "currency": "$"
+    },
+    {
+      "code": "922045679815",
+      "name": "Suitable for IQ ilum one all-in-one machine 6th and 7th generations transparent PC anti-fall protective case One protective case hot selling in Japan and South Korea",
+      "price": 1.4318,
+      "currency": "$"
+    },
+    {
+      "code": "968738095810",
+      "name": "100 pieces of disposable earmuffs to prevent water intrusion, ear piercing, children's bathing, shampooing and hair dyeing, ear protection earmuffs and ear caps",
+      "price": 1.35,
+      "currency": "$"
+    },
+    {
+      "code": "1044431315695",
+      "name": "Foreign trade women's clothing 2025 summer new style Rakuten cross-border Japanese and Korean round neck loose and versatile slim solid color shirt for women",
+      "price": 6.0204,
+      "currency": "$"
+    }
+  ],
+  "cheapest": [
+    {
+      "code": "636828652298",
+      "name": "Factory direct sale of game props Armor of God handmade set medieval knight silhouette learning children's dress-up toys",
+      "price": 0.0136,
+      "currency": "$"
+    },
+    {
+      "code": "1061869851455",
+      "name": "Cross-border supply of transparent crystal crochet beginners' entry-level handmade woolen doll knitting tools single-head crochet set",
+      "price": 0.0341,
+      "currency": "$"
+    },
+    {
+      "code": "980907804876",
+      "name": "Stainless Steel Slanted Bowl KTV Bar Ashtray Hotel Buffet Table Sauce Bowl Multifunctional Light Luxury Ashtray",
+      "price": 0.05,
+      "currency": "$"
+    },
+    {
+      "code": "1013698221591",
+      "name": "Customized cotton drawstring bag, multi-functional storage bag, cross-border cotton and linen dust-proof gift bag, sundries sorting and packaging bag",
+      "price": 0.0614,
+      "currency": "$"
+    },
+    {
+      "code": "1046956805990",
+      "name": "Cotton Drawstring Pouch with Herringbone Pattern, Gift Box for Perfume and Jewelry Packaging, Cotton-Linen Dustproof Herringbone Small Cloth Bag",
+      "price": 0.0636,
+      "currency": "$"
+    }
+  ],
+  "priciest": [
+    {
+      "code": "1067245550365",
+      "name": "LUXFO Langyou four-pack portable cigar humidor cedar wood multi-functional travel set gift box",
+      "price": 79.5454,
+      "currency": "$"
+    },
+    {
+      "code": "1017753094905",
+      "name": "Cross-border spot cigar box 4 portable travel size cedar wood cigar humidor storage box",
+      "price": 38.8636,
+      "currency": "$"
+    },
+    {
+      "code": "619037452970",
+      "name": "ChiBox",
+      "price": 36.3636,
+      "currency": "$"
+    }
+  ],
+  "titleLengthStats": {
+    "max": 182,
+    "median": 121,
+    "over100chars": 119,
+    "codeOnly": 10,
+    "sampleSize": 144,
+    "codeOnlySource": "/api/public/home (products/hot/deals sections)"
+  }
+}
